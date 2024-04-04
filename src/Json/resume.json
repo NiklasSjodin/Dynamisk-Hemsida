@@ -1,0 +1,39 @@
+{
+    "work": [
+        {
+            "name": "Coop",
+            "position": "Sales person",
+            "description": "Weekend work every other week when studying",
+            "years": "2023 - Current"
+        },
+        {
+            "name": "Coop",
+            "position": "Department manager",
+            "description": "Department manager for diary and the freeze section",
+            "years": "2020-2023"
+        },
+        {
+            "name": "Martin & Servera",
+            "position": "Warehouse worker",
+            "description": "Extra job at nights and weekends",
+            "years": "2018-2019"
+        }
+    ],
+    "education": [
+        {
+            "name": "Chas Academy",
+            "description": "Fullstack .NET student",
+            "years": "2023-2025"
+        },
+        {
+            "name": "Högskolan i Skövde",
+            "description": "Economics, entrepreneurship and marketing",
+            "years": "2017-2018"
+        },
+        {
+            "name": "Tumba Gymnasium",
+            "description": "Sports and management",
+            "years": "2008-2011"
+        }
+    ]
+}
