@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 
 export default function Profile() {
   const openResume = () => {
-    window.open("/resume", "_blank"); // Öppna Resume i ett nytt fönster
+    window.open("/Dynamisk-Hemsida/resume", "_blank"); // Öppna Resume i ett nytt fönster
   };
 
   return (
