@@ -5,7 +5,10 @@ import { Link } from "react-scroll";
 
 export default function Profile() {
   const openResume = () => {
-    window.open("/Dynamisk-Hemsida/resume", "_blank"); // Öppna Resume i ett nytt fönster
+    window.open(
+      "https://niklassjodin.github.io/Dynamisk-Hemsida/resume",
+      "_blank"
+    ); // Öppna Resume i ett nytt fönster
   };
 
   return (
