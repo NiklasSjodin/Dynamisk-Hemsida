@@ -26,11 +26,11 @@ export default function Profile() {
           <h1 className="title">Niklas Sjödin</h1>
           <p className="section__text_p2">Fullstack Developer</p>
           <div className="btn-container">
-            <a href="https://niklassjodin.github.io/Dynamisk-Hemsida/resume" target="_blank">
+            <Link to="/resume">
               <button className="btn btn-color-2" /* onClick={openResume} */>
                 CV
               </button>
-            </a>
+            </Link>
             <Link to="contact" spy={true} smooth={true} duration={100}>
               <button className="btn btn-color-1">Contact Info</button>
             </Link>
