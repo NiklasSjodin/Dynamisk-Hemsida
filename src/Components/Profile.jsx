@@ -28,7 +28,7 @@ export default function Profile() {
           <h1 className="title">Niklas Sjödin</h1>
           <p className="section__text_p2">Fullstack Developer</p>
           <div className="btn-container">
-            <NavLink to="/resume">
+            <NavLink to="/resume" target="_blank">
               <button className="btn btn-color-2" /* onClick={openResume} */>
                 CV
               </button>
