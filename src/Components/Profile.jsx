@@ -4,12 +4,12 @@ import GithubLogo from "../assets/github.png";
 import { Link } from "react-scroll";
 
 export default function Profile() {
-  const openResume = () => {
+ /*  const openResume = () => {
     window.open(
       "https://niklassjodin.github.io/Dynamisk-Hemsida/resume",
       "_blank"
     ); // Öppna Resume i ett nytt fönster
-  };
+  }; */
 
   return (
     <>
@@ -26,9 +26,11 @@ export default function Profile() {
           <h1 className="title">Niklas Sjödin</h1>
           <p className="section__text_p2">Fullstack Developer</p>
           <div className="btn-container">
-            <button className="btn btn-color-2" onClick={openResume}>
-              CV
-            </button>
+            <a href="https://niklassjodin.github.io/Dynamisk-Hemsida/resume" target="_blank">
+              <button className="btn btn-color-2" /* onClick={openResume} */>
+                CV
+              </button>
+            </a>
             <Link to="contact" spy={true} smooth={true} duration={100}>
               <button className="btn btn-color-1">Contact Info</button>
             </Link>
