@@ -1,7 +1,9 @@
 import ProfilePic from "../assets/profile-pic.png";
 import LinkedinLogo from "../assets/linkedinlogo.png";
 import GithubLogo from "../assets/github.png";
-import { Link } from "react-scroll";
+import { Link} from "react-scroll";
+import { NavLink } from "react-router-dom";
+
 
 export default function Profile() {
  /*  const openResume = () => {
@@ -26,11 +28,11 @@ export default function Profile() {
           <h1 className="title">Niklas Sjödin</h1>
           <p className="section__text_p2">Fullstack Developer</p>
           <div className="btn-container">
-            <Link to="resume">
+            <NavLink to="/resume">
               <button className="btn btn-color-2" /* onClick={openResume} */>
                 CV
               </button>
-            </Link>
+            </NavLink>
             <Link to="contact" spy={true} smooth={true} duration={100}>
               <button className="btn btn-color-1">Contact Info</button>
             </Link>
